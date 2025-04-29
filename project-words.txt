@@ -1,4 +1,8 @@
 erikdakoda
+NEXTAUTH
+pooler
+sslmode
 syncpack
+verceldb
 zenstack
 zenstackhq
