@@ -12,13 +12,13 @@
     "npm:version": "npm version --allow-same-version"
   },
   "dependencies": {
-    "next": "14.2.20",
+    "next": "15.3.1",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   },
   "devDependencies": {
     "default-configs": "workspace:*",
-    "prettier": "3.4.2",
-    "typescript": "5.7.2"
+    "prettier": "3.5.3",
+    "typescript": "5.8.3"
   }
 }

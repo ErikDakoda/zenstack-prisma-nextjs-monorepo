@@ -17,17 +17,17 @@
     "npm:version": "npm version --allow-same-version"
   },
   "dependencies": {
-    "@prisma/client": "6.0.1",
-    "@zenstackhq/runtime": "2.10.1",
-    "@zenstackhq/server": "2.10.1",
+    "@prisma/client": "6.6.0",
+    "@zenstackhq/runtime": "2.14.0",
+    "@zenstackhq/server": "2.14.0",
     "db": "link:prisma/client"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "14.2.20",
-    "@zenstackhq/tanstack-query": "2.10.1",
-    "dotenv-cli": "7.4.4",
+    "@next/eslint-plugin-next": "15.3.1",
+    "@zenstackhq/tanstack-query": "2.14.0",
+    "dotenv-cli": "8.0.0",
     "npm-check": "6.0.1",
-    "prisma": "6.0.1",
-    "zenstack": "2.10.1"
+    "prisma": "6.6.0",
+    "zenstack": "2.14.0"
   }
 }

@@ -1,4 +1,11 @@
 packages:
-  - 'apps/todo'
-  - 'packages/@erikdakoda/*'
-  - 'packages/default-configs'
+  - apps/todo
+  - packages/@erikdakoda/*
+  - packages/default-configs
+onlyBuiltDependencies:
+  - '@prisma/client'
+  - '@prisma/engines'
+  - esbuild
+  - prisma
+  - sharp
+  - zenstack
