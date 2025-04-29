@@ -1,6 +1,6 @@
 {
   "name": "zenstack-prisma-nextjs-monorepo",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -22,7 +22,7 @@
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "ts:check": "turbo run ts:check",
-    "npm:version": "turbo run npm:version -- 0.1.1",
+    "npm:version": "turbo run npm:version -- 0.3.0",
     "syncpack:list": "syncpack list-mismatches",
     "syncpack:fix": "syncpack fix-mismatches",
     "syncpack:update": "syncpack update --types 'prod,dev'"
