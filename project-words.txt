@@ -1,4 +1,12 @@
+cuid
 erikdakoda
+googleusercontent
+NEXTAUTH
+picsum
+pooler
+sslmode
 syncpack
+Toastify
+verceldb
 zenstack
 zenstackhq

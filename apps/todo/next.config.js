@@ -8,9 +8,7 @@ const nextConfig = {
     return config;
   },
   reactStrictMode: true,
-  experimental: {
-    serverComponentsExternalPackages: ['@zenstackhq/runtime'],
-  },
+  serverExternalPackages: ['@zenstackhq/runtime'],
   transpilePackages: [
     '@erikdakoda/auth',
     '@erikdakoda/auth-ui',
@@ -18,7 +16,7 @@ const nextConfig = {
     '@erikdakoda/todo',
     '@erikdakoda/todo-ui',
   ],
-  swcMinify: true,
+  //swcMinify: true,
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: 'picsum.photos' },

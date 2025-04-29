@@ -1,6 +1,6 @@
 {
   "name": "@erikdakoda/auth",
-  "version": "0.1.1",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,18 +15,18 @@
     "next-auth": "4.24.11"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "14.2.20",
-    "@typescript-eslint/eslint-plugin": "8.18.0",
-    "@typescript-eslint/parser": "8.18.0",
+    "@next/eslint-plugin-next": "15.3.1",
+    "@typescript-eslint/eslint-plugin": "8.31.1",
+    "@typescript-eslint/parser": "8.31.1",
     "default-configs": "workspace:*",
-    "dotenv": "16.4.7",
+    "dotenv": "16.5.0",
     "eslint": "8.57.1",
-    "eslint-config-next": "14.2.20",
+    "eslint-config-next": "14.2.28",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-jsdoc": "48.11.0",
-    "eslint-plugin-prettier": "5.2.1",
-    "prettier": "3.4.2",
-    "typescript": "5.7.2",
+    "eslint-plugin-prettier": "5.2.6",
+    "prettier": "3.5.3",
+    "typescript": "5.8.3",
     "typescript-eslint": "7.18.0"
   }
 }
