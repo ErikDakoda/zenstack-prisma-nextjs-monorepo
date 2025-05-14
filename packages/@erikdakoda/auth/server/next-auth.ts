@@ -81,7 +81,7 @@ export const authOptions: NextAuthOptions = {
       return {
         ...session,
         user: {
-          ...user,
+          ...omit(user, ['password']),
           id: token.sub!,
         },
       };

@@ -9,8 +9,8 @@
   },
   "devDependencies": {
     "@arthurgeron/eslint-plugin-react-usememo": "2.4.4",
-    "@typescript-eslint/eslint-plugin": "8.31.1",
-    "@typescript-eslint/parser": "8.31.1",
+    "@typescript-eslint/eslint-plugin": "8.32.1",
+    "@typescript-eslint/parser": "8.32.1",
     "@vercel/style-guide": "6.0.0",
     "dotenv": "16.5.0",
     "eslint": "8.57.1",

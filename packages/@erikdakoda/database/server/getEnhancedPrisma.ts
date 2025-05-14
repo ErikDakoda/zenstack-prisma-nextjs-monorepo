@@ -20,7 +20,7 @@ export async function getEnhancedPrisma(ctx: {
 }) {
   const session = await getServerAuthSession(ctx);
   const extendedPrisma = getExtendedPrisma(basePrisma);
-  // @ts-ignore
+
   return enhance(
     extendedPrisma,
     { user: session?.user },

@@ -6,6 +6,7 @@ picsum
 pooler
 sslmode
 syncpack
+tanstack
 Toastify
 verceldb
 zenstack

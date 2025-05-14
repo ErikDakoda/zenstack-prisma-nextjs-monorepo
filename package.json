@@ -28,9 +28,9 @@
     "syncpack:update": "syncpack update --types 'prod,dev'"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "8.31.1",
-    "@typescript-eslint/parser": "8.31.1",
-    "@vitejs/plugin-react": "4.3.4",
+    "@typescript-eslint/eslint-plugin": "8.32.1",
+    "@typescript-eslint/parser": "8.32.1",
+    "@vitejs/plugin-react": "4.4.1",
     "default-configs": "workspace:*",
     "dotenv": "16.5.0",
     "eslint": "8.57.1",
@@ -40,8 +40,8 @@
     "eslint-plugin-jsdoc": "48.11.0",
     "eslint-plugin-prettier": "5.2.6",
     "prettier": "3.5.3",
-    "syncpack": "13.0.0",
-    "turbo": "2.3.3",
+    "syncpack": "13.0.4",
+    "turbo": "2.5.3",
     "typescript": "5.8.3"
   }
 }
