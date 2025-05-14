@@ -17,7 +17,8 @@ export const UserContext = createContext<UserContextType>({
 });
 
 export function useCurrentUser(): UserContextType {
-  const { data, status } = useSession();
+  const session = useSession();
+  const { data, status } = session;
 
   return {
     user: data?.user as User | undefined,
@@ -30,16 +31,11 @@ export const SpaceContext = createContext<Space | undefined>(undefined);
 
 export function useCurrentSpace() {
   const router = useRouter();
-  const { data: spaces } = useFindManySpace(
-    {
-      where: {
-        slug: router.query.slug as string,
-      },
+  const { data: spaces } = useFindManySpace({
+    where: {
+      slug: router.query.slug as string,
     },
-    /* {
-            disabled: !router.query.slug,
-        } */
-  );
+  });
 
   return spaces?.[0];
 }

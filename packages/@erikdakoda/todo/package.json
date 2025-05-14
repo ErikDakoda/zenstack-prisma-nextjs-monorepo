@@ -11,9 +11,9 @@
     "npm:version": "npm version --allow-same-version"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "15.3.1",
-    "@typescript-eslint/eslint-plugin": "8.31.1",
-    "@typescript-eslint/parser": "8.31.1",
+    "@next/eslint-plugin-next": "15.3.2",
+    "@typescript-eslint/eslint-plugin": "8.32.1",
+    "@typescript-eslint/parser": "8.32.1",
     "default-configs": "workspace:*",
     "dotenv": "16.5.0",
     "eslint": "8.57.1",
